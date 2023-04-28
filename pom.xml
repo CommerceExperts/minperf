@@ -72,6 +72,16 @@
                 </plugins>
             </build>
         </profile>
-
     </profiles>
+
+	<distributionManagement>
+		<repository>
+			<id>external-releases</id>
+			<url>https://nexus.commerce-experts.com/content/repositories/searchhub-external/</url>
+		</repository>
+		<snapshotRepository>
+			<id>external-snapshots</id>
+			<url>https://nexus.commerce-experts.com/content/repositories/searchhub-public-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
