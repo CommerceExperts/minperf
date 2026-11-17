@@ -76,12 +76,12 @@
 
 	<distributionManagement>
 		<repository>
-			<id>external-releases</id>
-			<url>https://nexus.commerce-experts.com/content/repositories/searchhub-external/</url>
+			<id>public-releases</id>
+			<url>https://nexus.searchhub.io/repository/searchhub-public-releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>external-snapshots</id>
-			<url>https://nexus.commerce-experts.com/content/repositories/searchhub-public-snapshots/</url>
+			<id>public-snapshots</id>
+			<url>https://nexus.searchhub.io/repository/searchhub-public-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
